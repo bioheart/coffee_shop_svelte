@@ -24,7 +24,7 @@
     ]
 </script>
 <nav class="flex flex-row w-full">
-    <div class="w-5/12"><a href="/">Chewan Cafe</a></div>
+    <div class="w-5/12"><a href="/">Cheewan Cafe</a></div>
     <ul class="flex flex-row w-6/12">
         {#each menus as item}
             <li class="mx-auto">
