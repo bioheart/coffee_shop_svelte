@@ -4,7 +4,7 @@
 
 </script>
 
-<div class="cointainer mx-auto">
+<div class="cointainer mx-auto font-quicksand">
     <div class="px-48 xl:px-96">
         <Header/>
         <slot/>

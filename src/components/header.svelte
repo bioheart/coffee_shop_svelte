@@ -1,5 +1,6 @@
 <script>
     import { page } from '$app/stores';
+    import SocialIcons from '@rodneylab/svelte-social-icons';
     const menus = [{
             title:'Home',
             url:'/'
@@ -11,11 +12,19 @@
         {
             title:'Contact',
             url:'/contact'
+        },
+        {
+            title:'Menus',
+            url:'/menus'
+        },
+        {
+            title:'Events',
+            url:'events'
         }
     ]
 </script>
 <nav class="flex flex-row w-full">
-    <div class="w-5/12"><a href="/">LOGO</a></div>
+    <div class="w-5/12"><a href="/">Chewan Cafe</a></div>
     <ul class="flex flex-row w-6/12">
         {#each menus as item}
             <li class="mx-auto">
@@ -24,7 +33,8 @@
         {/each}
     </ul>
     <div class="social-icons">
-        <a href="https://instagram.com">IG</a>
+        <a href="https://www.instagram.com/cheewan_cafe/"><SocialIcons alt="" network="instagram" width="24" height="24" /></a>
+        <a class="ml-1" href="https://www.facebook.com/profile.php?id=61558120860131"><SocialIcons alt="" network="facebook" width="24" height="24" /></a>
     </div>
 </nav>
 
